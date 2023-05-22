@@ -1,0 +1,48 @@
+node: https://nodejs.org/en/download/ 
+npx: https://www.npmjs.com/package/npx
+vscode: https://code.visualstudio.com/download
+nodemon: https://github.com/remy/nodemon
+vite: https://vitejs.dev/guide/ 
+react router: https://reactrouter.com/en/v6.3.0/get... 
+react dropzone: https://github.com/react-dropzone/rea...
+redux toolkit: https://redux-toolkit.js.org/introduc... 
+redux toolkit query: https://redux-toolkit.js.org/rtk-quer... 
+regression: https://github.com/tom-alexander/regr...
+mui: https://mui.com/material-ui/getting-s...
+mui data grid: https://mui.com/x/api/data-grid/data-...
+recharts: https://recharts.org/en-US/
+flexbox guide: https://css-tricks.com/snippets/css/a...
+css grid cheatsheet: https://grid.malven.co/
+data model diagram: https://lucid.app/lucidchart/23d63d3a...
+redux dev tools: https://chrome.google.com/webstore/de...
+pesticide extension: https://chrome.google.com/webstore/de...
+fly io node: https://fly.io/docs/languages-and-fra...
+vercel: https://vercel.com/
+docker: https://www.docker.com/products/docke...
+
+react-redux - это библиотека, которая помогает в управлении состоянием приложения с использованием библиотеки React. Она предоставляет функциональность Redux и связывает ее со структурой приложения на React;
+@reduxjs/toolkit - это официальное рекомендуемое средство для написания Redux-совместимого кода. Оно содержит в себе набор утилит, которые помогают упростить и ускорить процесс разработки;
+react-router-dom - это библиотека, которая помогает в управлении маршрутами приложения на React. Она предоставляет компоненты, которые позволяют легко определять маршруты и переходить между ними;
+@mui/material - это библиотека, которая предоставляет компоненты пользовательского интерфейса для разработки веб-приложений. Она основана на библиотеке Material Design и содержит в себе множество готовых компонентов, стилей и тем;
+@emotion/react - это библиотека, которая предоставляет функциональность для создания и использования стилей в приложении на React. Она основана на концепции Emotion CSS-in-JS и позволяет генерировать динамические стили в зависимости от состояния приложения;
+@emotion/styled - это дополнительный пакет библиотеки Emotion, который предоставляет функциональность для создания стилизованных компонентов на React с помощью технологии CSS-in-JS;
+@mui/icons-material - это библиотека, которая содержит множество готовых иконок в стиле Material Design;
+@mui/x-data-grid - это библиотека, которая предоставляет гибкий и мощный компонент таблицы на React. Она позволяет легко создавать и настраивать таблицы, которые могут включать в себя множество разных типов данных.
+eslint: это пакет позволяет проверять исходный код JavaScript на наличие ошибок, следование конвенциям и другим правилам линтинга;
+eslint-config-react-app: это конфигурация линтера eslint, предназначенная для проектов на React.
+
+Шаги разработки:
+1. Делаю абсолютный путь
+/ установливаю @types/node  (-D)
+/в vite.config добавляю алиас
+/в tsconfig.json  определяю путь для разрешения путей импорта модулей (  "@/*": ["./src/*"]  )
+
+2. Создаю цветовую тему моего проекта в файле theme.tsconfig
+// Создаю expended-theme для расширения стандартной палитры цветов MUI
+// В App использую хук useMemo для создания темы и передаю в виде пропса в дочерние элементы
+
+3. Создаю машрутизацию в App
+
+4. Cоздание Navbar
+
+5. Сделал приборную панель с диаграммами для 
